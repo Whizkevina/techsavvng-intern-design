@@ -1,1 +1,12 @@
-# techsavvng-intern-design
+# Techsavvng-intern-design-1
+Slicing of Dropbox Business wepage from Scratch...
+
+Clone or download the repository to be able to view it, though the netlify link : [url]coming soon here[/url]
+
+After cloning, remember to *npm install* so that it can work better...
+
+Also I won't mind any mindblowing changes or feature that you can add on it... will sure to add it on.
+
+Built using /b Nodejs /b....
+
+Just practicing though....
