@@ -39,72 +39,9 @@
 }
 
 /* //Price listing for Dropbox-business */
-* {
-  box-sizing: border-box;
-}
 
-.columns {
-  float: left;
-  width: 30.3%;
-  padding: 8px;
-}
 
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
 
-.price_2 {
-  list-style-type: none;
-  border-right: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-.price .header {
-  background-color: darkgray;
-  color: white;
-  font-size: 25px;
-}
-
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-.price .grey {
-  background-color: #eee;
-  font-size: 3vmax;
-}
-
-.button {
-  background-color: blue;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
-  font-size: 18px;
-}
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
-}
 /* // navbar CSS*/
 .navbar-icon-top .navbar-nav .nav-link > .fa {
   position: fixed;
