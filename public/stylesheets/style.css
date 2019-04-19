@@ -39,8 +39,253 @@
 }
 
 /* //Price listing for Dropbox-business */
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.columns-1 {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.price-1 {
+    list-style-type: none;
+    border-right: 1px solid #eee;
+    margin: 6px;
+    padding: 5px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price-1:hover {
+    box-shadow: none;
+}
+
+.price .header {
+    background-color: #F8F8FF;
+    color: black;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: left;
+}
+
+.price-1 li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    list-style-image: url('https://img.icons8.com/ultraviolet/15/000000/checkmark.png');
+}
+
+.price .grey {
+    background-color: transparency;
+    font-size: 20px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.button-1 {
+    background-color: transparency;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button-1:hover {
+    background-color: grey;
+
+}
+
+.purchase_now {
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.head_hero {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    background-color: #b3ffff;
+    font-size: 15px;
+}
+
+.next_level {
+    margin: 30px;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    text-align: center;
+
+}
 
 
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+}
+body-term {
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+}
+/* STRUCTURE */
+.wrapper-hero {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+.header-hero {
+    padding: 0 15px;
+}
+.columns-hero {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+.column {
+    flex: 1;
+    border: none;
+    margin: 2px;
+    padding: 10px;
+}
+.column:first-child {
+    margin-left: 0;
+}
+.column:last-child {
+    margin-right: 0;
+}
+footer {
+    padding: 0 15px;
+}
+@media screen and (max-width: 980px) {
+    .columns-hero .column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+    .columns-hero .column:nth-last-child(2) {
+        margin-right: 0;
+    }
+    .columns-hero .column:last-child {
+        flex-basis: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 680px) {
+    .columns-hero .column {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
+}
+
+.activity_div {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+
+}
+
+.service_img:hover {
+    width: 80px;
+}
+
+
+/* //Accordion Style */
+section{
+    padding: 60px 0;
+}
+
+#accordion-style-1 h1,
+#accordion-style-1 a{
+    color:#9fcdff;
+}
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+    color: #9fcdff;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid #9fcdff;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+    display:none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main{
+    background: #9fcdff;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display:block;
+}
 
 /* // navbar CSS*/
 .navbar-icon-top .navbar-nav .nav-link > .fa {
