@@ -1,14 +1,31 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .navbar-brand {
   background-color: transparent !important;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        width: fit-content;
+    }
+}
+
 .branding-top{
   width: 100vw;
   height: 100vh;
-  background: url("../images/bgimage.jpg") no-repeat left center fixed;
+  background: url("../images/bgimage-bicubic.png") no-repeat left center fixed;
+    background-color: #17a2b8;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .branding-top {
+        width: 100vw;
+        height: 100vh;
+        background: url("../images/bgimage.jpg") no-repeat left center fixed;
+        background-size: contain;
+    }
 }
 
 .workb {
@@ -92,19 +109,19 @@
 .price li {
     border-bottom: 1px solid #eee;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .price-1 li {
     border-bottom: 1px solid #eee;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     list-style-image: url('https://img.icons8.com/ultraviolet/15/000000/checkmark.png');
 }
 
 .price .grey {
-    background-color: transparency;
+    background-color: transparent;
     font-size: 20px;
 }
 
@@ -125,7 +142,7 @@
 }
 
 .button-1 {
-    background-color: transparency;
+    background-color: transparent;
     border: 1px solid blue;
     border-radius: 5px;
     color: blue;
@@ -173,7 +190,12 @@
     }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@media only screen and (max-width: 600px) {
+    .columns-1 {
+        width: 100%;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -245,10 +267,35 @@ footer {
     width: 80px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .box-business {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .box-business {width: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .box-business {width: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .box-business {width: 100%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .box-business {width: 100%;}
+}
+
 
 /* //Accordion Style */
 section{
-    padding: 60px 0;
+    padding: 0px 0;
 }
 
 #accordion-style-1 h1,
